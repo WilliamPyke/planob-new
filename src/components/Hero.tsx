@@ -82,7 +82,7 @@ const Hero = ({ language }: HeroProps) => {
               variant="outline"
               size="lg"
               onClick={handleEmailClick}
-              className="flex items-center space-x-2 border-white text-black hover:bg-white"
+              className="flex items-center space-x-2 border-white text-black hover:bg-white hover:text-black"
             >
               <Mail className="h-5 w-5" />
               <span>{content[language].cta2}</span>
