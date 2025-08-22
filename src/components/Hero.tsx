@@ -78,11 +78,11 @@ const Hero = ({ language }: HeroProps) => {
               <MessageCircle className="h-5 w-5" />
               <span>{content[language].cta1}</span>
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               onClick={handleEmailClick}
-              className="flex items-center space-x-2 border-white text-white hover:bg-white hover:text-black"
+              className="flex items-center space-x-2 border-white text-black hover:bg-white"
             >
               <Mail className="h-5 w-5" />
               <span>{content[language].cta2}</span>
