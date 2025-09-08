@@ -8,7 +8,7 @@ interface AboutProps {
 const About = ({ language }: AboutProps) => {
   const content = {
     en: {
-      title: "Why Choose Plano B?",
+      title: "Why Choose plano B?",
       subtitle: "Trusted expertise and personalized guidance for your Bitcoin journey",
       credentials: [
         {
@@ -38,7 +38,7 @@ const About = ({ language }: AboutProps) => {
       }
     },
     pt: {
-      title: "Por Que Escolher Plano B?",
+      title: "Por Que Escolher plano B?",
       subtitle: "Expertise confiável e orientação personalizada para sua jornada Bitcoin",
       credentials: [
         {

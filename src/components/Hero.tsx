@@ -9,7 +9,7 @@ const Hero = ({ language }: HeroProps) => {
   const content = {
     en: {
       headline: "Secure Your Bitcoin Journey",
-      subheadline: "Expert Plano B & Security Solutions",
+      subheadline: "Expert plano B & Security Solutions",
       description: "Get personalized 1:1 guidance to safely navigate, purchase, and secure your Bitcoin investments. From beginner education to advanced security strategies.",
       cta1: "Schedule Consultation",
       cta2: "Email Us",
@@ -22,7 +22,7 @@ const Hero = ({ language }: HeroProps) => {
     },
     pt: {
       headline: "Proteja Sua Jornada Bitcoin",
-      subheadline: "Consultoria Especializada Plano B e Segurança",
+      subheadline: "Consultoria Especializada plano B e Segurança",
       description: "Receba orientação personalizada 1:1 para navegar, comprar e proteger seus investimentos em Bitcoin com segurança. Da educação básica às estratégias avançadas de segurança.",
       cta1: "Agendar Consulta",
       cta2: "Enviar Email",
@@ -36,7 +36,7 @@ const Hero = ({ language }: HeroProps) => {
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:admin@planob.club?subject=Plano B Consultation";
+    window.location.href = "mailto:admin@planob.club?subject=plano B Consultation";
   };
 
   const handleTelegramClick = () => {

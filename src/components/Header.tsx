@@ -30,9 +30,9 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 flex items-center justify-center">
-            <img src="/planoB.png" alt="Plano B Logo" className="w-6 h-6 object-contain" />
+            <img src="/planoB.png" alt="plano B Logo" className="w-6 h-6 object-contain" />
           </div>
-          <span className="font-bold text-lg">Plano B</span>
+          <span className="font-bold text-lg">plano B</span>
         </div>
 
         {/* Desktop Navigation */}

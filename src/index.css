@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Plano B Design System - Minimalistic Black & White with Bitcoin Orange Accents */
+/* plano B Design System - Minimalistic Black & White with Bitcoin Orange Accents */
 
 @layer base {
   :root {
@@ -39,7 +39,7 @@
 
     --radius: 0.375rem;
 
-    /* Custom Plano B tokens */
+    /* Custom plano B tokens */
     --bitcoin-orange: 25 95% 53%;
     --bitcoin-orange-light: 25 95% 65%;
     --bitcoin-orange-dark: 25 95% 40%;

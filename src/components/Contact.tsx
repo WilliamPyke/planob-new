@@ -61,7 +61,7 @@ const Contact = ({ language }: ContactProps) => {
   };
 
   const handleEmailClick = () => {
-    const subject = language === 'en' ? 'Plano B Consultation Request' : 'Solicitação de Consultoria Plano B';
+    const subject = language === 'en' ? 'plano B Consultation Request' : 'Solicitação de Consultoria plano B';
     const body = language === 'en'
       ? 'Hello,\n\nI am interested in scheduling a Bitcoin consultation session.\n\nPlease let me know your availability and next steps.\n\nThank you!'
       : 'Olá,\n\nTenho interesse em agendar uma sessão de consultoria Bitcoin.\n\nPor favor, me informe sua disponibilidade e próximos passos.\n\nObrigado!';

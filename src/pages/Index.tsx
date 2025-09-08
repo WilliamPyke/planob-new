@@ -25,9 +25,9 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <div className="w-8 h-8 flex items-center justify-center">
-              <img src="/planoB_white.png" alt="Plano B Logo" className="w-6 h-6 object-contain" />
+              <img src="/planoB_white.png" alt="plano B Logo" className="w-6 h-6 object-contain" />
             </div>
-            <span className="font-bold text-lg">Plano B</span>
+            <span className="font-bold text-lg">plano B</span>
           </div>
           <p className="text-gray-400 text-sm">
             {language === 'en' 
@@ -35,7 +35,7 @@ const Index = () => {
               : 'Consultoria profissional e serviços de segurança Bitcoin'}
           </p>
           <p className="text-gray-500 text-xs mt-4">
-            © 2024 Plano B. {language === 'en' ? 'All rights reserved.' : 'Todos os direitos reservados.'}
+            © 2024 plano B. {language === 'en' ? 'All rights reserved.' : 'Todos os direitos reservados.'}
           </p>
         </div>
       </footer>
