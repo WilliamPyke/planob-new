@@ -61,16 +61,16 @@ const Contact = ({ language }: ContactProps) => {
   };
 
   const handleEmailClick = () => {
-    const subject = language === 'en' ? 'Bitcoin Advisory Consultation Request' : 'Solicitação de Consultoria Bitcoin';
-    const body = language === 'en' 
+    const subject = language === 'en' ? 'Plano B Consultation Request' : 'Solicitação de Consultoria Plano B';
+    const body = language === 'en'
       ? 'Hello,\n\nI am interested in scheduling a Bitcoin consultation session.\n\nPlease let me know your availability and next steps.\n\nThank you!'
       : 'Olá,\n\nTenho interesse em agendar uma sessão de consultoria Bitcoin.\n\nPor favor, me informe sua disponibilidade e próximos passos.\n\nObrigado!';
-    
-    window.location.href = `mailto:contact@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = `mailto:admin@planob.club?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const handleTelegramClick = () => {
-    window.open("https://t.me/yourusername", "_blank");
+    window.open("https://t.me/ToTheSea22", "_blank");
   };
 
   return (

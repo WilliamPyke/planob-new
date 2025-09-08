@@ -75,7 +75,7 @@ const Services = ({ language }: ServicesProps) => {
   };
 
   const handleSchedule = () => {
-    window.open("https://t.me/yourusername", "_blank");
+    window.open("https://t.me/ToTheSea22", "_blank");
   };
 
   return (

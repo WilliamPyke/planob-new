@@ -62,7 +62,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Bitcoin Advisory custom colors
+				// Plano B custom colors
 				bitcoin: {
 					DEFAULT: 'hsl(var(--bitcoin-orange))',
 					light: 'hsl(var(--bitcoin-orange-light))',

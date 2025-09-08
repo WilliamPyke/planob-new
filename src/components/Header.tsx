@@ -21,18 +21,22 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
     }
   };
 
+  const handleTelegramClick = () => {
+    window.open("https://t.me/ToTheSea22", "_blank");
+  };
+
   return (
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-accent rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-sm">₿</span>
+          <div className="w-8 h-8 flex items-center justify-center">
+            <img src="/planoB.png" alt="Plano B Logo" className="w-6 h-6 object-contain" />
           </div>
-          <span className="font-bold text-lg">Bitcoin Advisory</span>
+          <span className="font-bold text-lg">Plano B</span>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
           {content[language].nav.map((item) => (
             <a
               key={item}
@@ -59,7 +63,7 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
           </Button>
 
           {/* CTA Button */}
-          <Button variant="bitcoin" className="hidden md:flex">
+          <Button variant="bitcoin" className="hidden md:flex" onClick={handleTelegramClick}>
             {content[language].cta}
           </Button>
 
@@ -93,7 +97,7 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
                 {item}
               </a>
             ))}
-            <Button variant="bitcoin" className="w-full">
+            <Button variant="bitcoin" className="w-full" onClick={handleTelegramClick}>
               {content[language].cta}
             </Button>
           </div>
