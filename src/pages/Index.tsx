@@ -35,7 +35,7 @@ const Index = () => {
               : 'Consultoria profissional e serviços de segurança Bitcoin'}
           </p>
           <p className="text-gray-500 text-xs mt-4">
-            © 2024 plano B. {language === 'en' ? 'All rights reserved.' : 'Todos os direitos reservados.'}
+            © 2025 plano B. {language === 'en' ? 'All rights reserved.' : 'Todos os direitos reservados.'}
           </p>
         </div>
       </footer>
